@@ -1,0 +1,40 @@
+html,
+body {
+  overflow: hidden;
+  overflow-y: auto;
+}
+.navbar {
+  margin-left: 10px;
+}
+.navbar .site-title {
+  padding-right: 10px;
+}
+.content {
+  margin-top: 30px;
+}
+.content a.post-category {
+  color: black;
+}
+.content a.post-category:hover {
+  color: #4285f4;
+}
+.content a.post-category:before {
+  content: none;
+}
+.content .post-title {
+  font-size: 56px;
+  margin: 0.3em 0;
+}
+.footer {
+  margin-top: 30px;
+  padding: 40px 20px 30px 20px;
+}
+.footer a {
+  color: #5f6368;
+}
+.footer a:hover {
+  color: #202124;
+}
+.footer a:before {
+  content: none;
+}

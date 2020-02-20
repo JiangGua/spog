@@ -1,0 +1,42 @@
+html,body {
+    overflow: hidden;
+    overflow-y: auto;
+}
+.navbar {
+    margin-left: 10px;
+    .site-title {
+        padding-right: 10px;
+    }
+}
+
+.content {
+    margin-top: 30px;
+    a.post-category {
+        color: black;
+        &:hover {
+            color: #4285f4;
+        }
+        &:before {
+            content: none;
+        }
+    }
+    .post-title {
+        font-size: 56px;
+        margin: .3em 0;
+    }
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 40px 20px 30px 20px;
+
+    a {
+        color: #5f6368;
+        &:hover {
+            color: #202124;
+        }
+        &:before {
+            content: none;
+        }
+    }
+}
