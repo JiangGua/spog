@@ -3,8 +3,10 @@ body {
   overflow: hidden;
   overflow-y: auto;
 }
-.navbar {
-  margin-left: 10px;
+@media (min-width: 600px) {
+  .navbar {
+    margin-left: 10px;
+  }
 }
 .navbar .site-title {
   padding-right: 10px;
@@ -27,7 +29,7 @@ body {
 }
 .footer {
   margin-top: 30px;
-  padding: 40px 20px 30px 20px;
+  padding: 30px 20px 30px 20px;
 }
 .footer a {
   color: #5f6368;
